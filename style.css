@@ -1,0 +1,92 @@
+
+.sitewrap {
+    background-image: url(svg-gears-icon-3.svg);
+    background-position: auto;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    margin-left: 40vh;
+    width: 30%;
+    height: 100vh;
+    z-index: -99;
+}
+.col {
+    box-shadow: 0 14px 28px rgba(208, 208, 208, 0.25), 0 10px 10px rgba(208, 208, 208,0.22);
+    border-radius: 6px;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255, 0.97);
+
+}
+.col:nth-of-type(2) {
+    margin-top: 2vh;
+    margin-left: 2vh;
+
+}
+.col-5 {
+    box-shadow: 0 14px 28px rgba(208, 208, 208, 0.25), 0 10px 10px rgba(208, 208, 208,0.22);
+    margin-top: 2vh;
+    margin-left: 2vh;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255, 0.97);
+
+
+}
+.col-5:nth-of-type(1){
+    width: 130px;
+    border-radius: 6px;
+    position: relative;
+}
+.SelfPortrait{
+    border-style: none;
+    width: 130px;
+
+}
+.container .row .col-5:nth-of-type(1) {
+    padding: 0;
+    
+
+}
+
+.container .col > .container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+    
+}
+.col-sm{
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 14px 28px rgba(208, 208, 208, 0.25), 0 10px 10px rgba(208, 208, 208,0.22);
+    border-radius: 6px;
+    margin-top: 2vh;
+    margin-left: 2vh;
+    height: 250px;
+}
+.col-lg{
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 14px 28px rgba(208, 208, 208, 0.25), 0 10px 10px rgba(208, 208, 208,0.22);
+    border-radius: 6px;
+    margin-top: 2vh;
+    margin-left: 2vh;
+    height: 100px;
+}
+.lead{
+    font-size: 14px;
+}
+.BGLine{
+    background-color: black;
+    width: 8px;
+    height: 60%;
+    float: left;
+    margin-top: 3.5vh;
+    border-radius: 10px;
+    background: rgb(255,222,173);
+    background: linear-gradient(90deg, rgba(255,222,173,1) 0%, rgb(250, 192, 104) 19%, rgba(249,221,161,1) 100%);
+}
+.socialIcon {
+    margin-right: 2vh;
+    height: 40%;
+    width: 40%;
+    margin-top: 30px;
+}
